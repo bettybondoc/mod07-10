@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, input {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #fbfcfb;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 3%;
+	text-align: center;
+	background-color: #C2E7DA;
+	color: #706F6F;
+}
+
+li,
+input {
+	font-size: 1.2em;
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	cursor: default;
+	width: 94%;
+	border-bottom: 1px solid #F2FAF7;
+	padding: 3%;
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+span {
+	color: #DA627D;
+	margin-right: 20px;
+	width: 0;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+}
+
+li:hover span {
+	width: 10px;
+	opacity: 1.0;
+}
+
+#container {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #aecfc4;
+}
+
+input {
+	width: 94%;
+	background-color: #f2faf7;
+	border: none;
+	padding: 3%;
+}
+
+@media only screen and (max-width: 767px) {
+	#container {
+		border: none;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#container {
+		border: none;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#container {
+		width: 40%;
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	#container {
+		width: 40%;
+		margin-top: 80px;
+	}
+}
